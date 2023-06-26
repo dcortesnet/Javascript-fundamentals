@@ -12,6 +12,7 @@ Fundamentals of the Javascript programming language. Repository with examples an
 * [BOM](https://medium.com/@diego.coder/introducci%C3%B3n-a-los-objetos-del-navegador-bom-bfd01fbfda23)
 * [Event loop](https://medium.com/@diego.coder/event-loop-y-su-relaci%C3%B3n-con-javascript-1e1276431189)
 * [Fechas y horas](https://medium.com/@diego.coder/fechas-y-horas-en-javascript-objeto-date-46bc36ed3774)
+* [Captura de errores](https://medium.com/@diego.coder/manejando-errores-en-javascript-c3c415b70575)
 
 ## Team
 
