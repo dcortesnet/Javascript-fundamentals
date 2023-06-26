@@ -4,7 +4,14 @@ Fundamentals of the Javascript programming language. Repository with examples an
 
 # Resources Spanish
 
-* Introducción a Javascript
+* [Introducción a Javascript](https://medium.com/@diego.coder/introducción-a-javascript-79bc942c288d)
+* [Variables y tipos de datos](https://medium.com/@diego.coder/variables-y-tipos-de-datos-en-javascript-16543ef93145)
+* [Condicionales](https://medium.com/@diego.coder/condicionales-en-javascript-if-if-else-y-switch-3f833b664bff)
+* [Ciclos](https://medium.com/@diego.coder/ciclos-en-javascript-for-for-in-for-of-for-each-y-while-b02fec257dbe)
+* [Funciones](https://medium.com/@diego.coder/funciones-en-javascript-arrow-iffe-callbacks-4b57df6b33de)
+* [BOM](https://medium.com/@diego.coder/introducci%C3%B3n-a-los-objetos-del-navegador-bom-bfd01fbfda23)
+* [Event loop](https://medium.com/@diego.coder/event-loop-y-su-relaci%C3%B3n-con-javascript-1e1276431189)
+* [Fechas y horas](https://medium.com/@diego.coder/fechas-y-horas-en-javascript-objeto-date-46bc36ed3774)
 
 ## Team
 
