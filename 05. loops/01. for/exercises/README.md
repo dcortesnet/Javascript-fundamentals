@@ -2,7 +2,7 @@
 
 1. Imprimir números del 1 al 10.
 2. Imprimir números pares del 2 al 20.
-3. Imprimir la tabla de multiplicar del 5 (hasta 10).
+3. Imprimir la tabla de multiplicar del 5 (hasta 10) y mostrar el resultado. Es decir, 5 x 1 = 5 ... 5 x 2 = 10... (hasta llegar al 10).
 4. Calcular la suma de los primeros 100 números naturales.
 5. Imprimir los elementos de un array dado.
 6. Contar el número de vocales en una palabra ingresada por el usuario.
