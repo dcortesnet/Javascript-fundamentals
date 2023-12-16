@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function simulateHistory() {
+        console.log("Página actual: Página 1");
+
+        history.forward();
+        console.log("Después de avanzar: Página 2");
+
+        // Retroceder a la Página 1
+        history.back();
+        console.log("Después de retroceder: Página 1");
+
+        // Avanzar a la Página 3
+        history.go(2);
+        console.log("Después de avanzar dos páginas: Página 3");
+      }
+
+      simulateHistory();
+    </script>
+  </body>
+</html>

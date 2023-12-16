@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      console.log("User Agent:", navigator.userAgent);
+      console.log("Idioma preferido:", navigator.language);
+      console.log(
+        "Tipo de conexión:",
+        navigator.connection ? navigator.connection.type : "No disponible"
+      );
+      console.log(
+        "Número de núcleos de procesador lógico:",
+        navigator.hardwareConcurrency || "No disponible"
+      );
+      console.log(
+        "Cantidad de memoria del dispositivo (GB):",
+        navigator.deviceMemory || "No disponible"
+      );
+    </script>
+  </body>
+</html>
