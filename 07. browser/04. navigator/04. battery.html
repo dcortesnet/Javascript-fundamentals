@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Verificar si la propiedad 'getBattery' está disponible en el navegador
+      if ("getBattery" in navigator) {
+        navigator.getBattery().then(function (battery) {
+          // Mostrar información básica de la batería en la consola
+          console.log("Nivel de batería: " + battery.level * 100 + "%");
+          console.log(
+            "Estado de carga: " +
+              (battery.charging ? "Cargando" : "No cargando")
+          );
+        });
+      } else {
+        console.log(
+          "La propiedad getBattery no está disponible en este navegador."
+        );
+      }
+    </script>
+  </body>
+</html>
