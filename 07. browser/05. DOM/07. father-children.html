@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul id="father">
+      <li class="child1">Hijo1</li>
+      <li class="child2">Hijo2</li>
+      <li class="child3">Hijo3</li>
+    </ul>
+    <script>
+      const father = document.getElementById("father"); // HTML element
+      console.log(father.children); // HTML collection
+      const children = father.children;
+      console.log(children[0]); //  <li class="child1">Hijo1</li>
+    </script>
+  </body>
+</html>

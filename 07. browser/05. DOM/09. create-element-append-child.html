@@ -12,6 +12,7 @@
       const fruits = ["orange", "lemon", "apple"];
 
       for (let index = 0; index < 3; index++) {
+        // Forma segura de crear html
         const newElement = document.createElement("li");
         newElement.textContent = fruits[index];
         element.appendChild(newElement);

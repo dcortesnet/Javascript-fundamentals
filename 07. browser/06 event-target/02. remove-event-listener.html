@@ -6,10 +6,10 @@
     <title>Document</title>
   </head>
   <body>
-    <p id="replaceText"></p>
     <script>
-      const element = document.getElementById("replaceText");
-      element.innerHTML = "This text is replaced by inner";
+      const action = () => console.log("click");
+      window.addEventListener("click", action);
+      window.removeEventListener("click", action);
     </script>
   </body>
 </html>

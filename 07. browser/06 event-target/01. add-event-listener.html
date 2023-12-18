@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="button">Click me</button>
+
+    <script>
+      window.addEventListener("click", (e) => {
+        console.log("Click in Windows ! ");
+      });
+
+      window.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowUp") {
+          console.log("Click arrow up !");
+        }
+      });
+
+      const element = document.getElementById("button");
+      element.addEventListener("click", (e) => {
+        alert("click the button!");
+      });
+    </script>
+  </body>
+</html>
