@@ -12,7 +12,6 @@ Fundamentals of the Javascript programming language. Repository with examples an
 
 ## Personal blog about Javascript
 
-- [Introducción a Javascript](https://medium.com/@diego.coder/introducción-a-javascript-79bc942c288d)
 - [Variables y tipos de datos](https://medium.com/@diego.coder/variables-y-tipos-de-datos-en-javascript-16543ef93145)
 - [Condicionales](https://medium.com/@diego.coder/condicionales-en-javascript-if-if-else-y-switch-3f833b664bff)
 - [Ciclos](https://medium.com/@diego.coder/ciclos-en-javascript-for-for-in-for-of-for-each-y-while-b02fec257dbe)
