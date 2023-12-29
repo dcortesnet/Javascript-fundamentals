@@ -9,6 +9,7 @@ Fundamentals of the Javascript programming language. Repository with examples an
 - web JavaScript info: https://javascript.info/
 - ECMAScript Documentation: https://ecma-international.org/publications-and-standards/standards/ecma-262/
 - JavaScript playground RunJS: https://runjs.app/
+- DEV patterns JS: https://www.patterns.dev/
 
 ## Personal blog about Javascript
 
