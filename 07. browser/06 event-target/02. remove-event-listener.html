@@ -6,10 +6,15 @@
     <title>Document</title>
   </head>
   <body>
+    <button id="button">Click me</button>
     <script>
-      const action = () => console.log("click");
-      window.addEventListener("click", action);
-      window.removeEventListener("click", action);
+      function clickFunction() {
+        alert("¡El botón fue clickeado!");
+      }
+
+      const element = document.getElementById("button");
+      element.addEventListener("click", clickFunction);
+      element.removeEventListener("click", clickFunction);
     </script>
   </body>
 </html>
